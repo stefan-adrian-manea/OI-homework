@@ -59,16 +59,6 @@ public class Exercise {
                 }
             }
 
-
-
-//            for (String word: wordsList) {
-//                smallestL = Math.min(smallestL, word.length());
-//            }
-//            for (String word: wordsList) {
-//                if(word.length() == smallestL){
-//                    biggestW.add(word);
-//                }
-//            }
             return smallestW.size() > 1 ? smallestW.toString() : smallestW.get(0);
         }
         public static String biggestWord() {
@@ -84,14 +74,7 @@ public class Exercise {
                     biggestW.add(word);
                 }
             }
-//            for (String word: wordsList) {
-//                biggestL = Math.max(biggestL, word.length());
-//            }
-//            for (String word: wordsList) {
-//                if(word.length() == biggestL){
-//                    biggestW.add(word);
-//                }
-//            }
+
             return biggestW.size() > 1 ? biggestW.toString() : biggestW.get(0);
         }
 
